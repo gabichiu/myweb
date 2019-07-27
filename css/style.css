@@ -106,36 +106,9 @@ body{
 /********************************** For All End **************************************
 */
 
-#topbar{
-    background-color: #f6f6f6;
-    text-align: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-#topbar .social ul li:first-child:after{
-    content: "";
-    border-right: 1px solid #ccc;
-    margin-right: 12px;
-    margin-left: 6px
-}
-#topbar .social ul li.facebook a,
-.facebook a:visited{
-    color: #4460a0;
-}
-#topbar .social ul li.twitter a,
-#topbar .twitter a:visited{
-    color: #00aaec;
-}
-#topbar .social ul li.facebook a:hover,
-#topbar .social ul li.twitter a:hover{
-    color: #a4a4a4;
-}
-
-/********************************** Topbar End **************************************
-*/
 
 #nav{
-    background-color: #fff;
+    background-color: rgba(74,74,74,.5);
     -webkit-box-shadow: 0px 4px 4px -5px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 4px 4px -5px rgba(0, 0, 0, 0.3);
 }
@@ -150,20 +123,28 @@ body{
     display: inline-block;
     padding-top: 20px;
     padding-bottom: 18px;
+    color: #fff;
 }
 #nav .menu ul li a:hover{
     border-bottom: 3px solid #00cc99;
+    color: #00cc99;
 }
 /* 有什麼方法可以讓整個li有a連結的特性, 但不至於hover過去後會造成整個選單的高度改變*/
 
 /********************************** Nav End **************************************
 */
-
+#header.index{
+    background: url(../img/banner_img01.png);
+}
+#header.course{
+    background: url(../img/banner_img02.png);
+}
+#header.qna{
+    background: url(../img/banner_img03.png);
+}
 #header{
-    background: url(../img/Banner.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 130px 0
 }
 #header .banner{
     background-color: rgba(0,0,0,.15);
